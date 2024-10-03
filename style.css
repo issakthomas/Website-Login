@@ -42,6 +42,9 @@ input[type="text"] {
     border-radius: 5px;
     margin: 5px 0px;
 }
+input[placeholder="Enter your username"] {
+    margin-bottom: 15px;
+}
 .checkbox {
     display: flex;
     justify-content: space-between;
