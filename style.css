@@ -91,10 +91,49 @@ button {
     background-image: url(assets/bg.jpg);
     background-size: cover;
     width: 60%;
+    height: 100%;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column-reverse;
 }
-.bg img {
-    height: 100%;
-    width: 100%;
+.bg h1 {
+    color: white;
+    display: none;
+}
+
+@media (max-width:790px) {
+    .login {
+        width: 100%;
+        height: 60%;
+        padding: 0px 50px;
+        background-color: white;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    h1 {
+        display: none;
+    }
+    .fields {
+        margin: 0px;
+    }
+    .bg {
+        height: 40%;
+        width: 100%;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .bg h1 {
+        display: flex;
+    }
+    #l-btn {
+        margin-top: 10px;
+    }
 }
