@@ -28,10 +28,64 @@ body {
     flex-direction: column;
     justify-content: center;
 }
+.login a, label, p {
+    font-size: 15px;
+}
 .fields {
     display: flex;
     flex-direction: column;
     margin: 30px 0px 20px 0px;
+}
+input[type="text"] {
+    padding: 10px 10px;
+    border: .5px solid black;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+.checkbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#check {
+    height: 15px;
+    width: 15px;
+}
+.login p {
+    text-align: center;
+}
+button {
+    padding: 15px 0px;
+    background-color: rgb(0, 122, 255);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#line-txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line {
+    border: .5px solid black;
+    width: 40%;
+}
+#or {
+    margin: 10px 10px;
+}
+#g-btn {
+    background-color: white;
+    color: black;
+    outline: .5px solid rgb(0, 122, 255);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+#g-btn img {
+    width: 5%;
 }
 .bg {
     background-image: url(assets/bg.jpg);
