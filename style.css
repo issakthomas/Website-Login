@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+.container {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+}
+.login {
+    width: 40%;
+    height: 100%;
+    padding: 0px 80px;
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fields {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px 20px 0px;
+}
+.bg {
+    background-image: url(assets/bg.jpg);
+    background-size: cover;
+    width: 60%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.bg img {
+    height: 100%;
+    width: 100%;
+}
